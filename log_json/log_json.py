@@ -12,4 +12,4 @@ class Logger:
 		
 	def log(self, **kargs):
 		kargs["level"] = "LOG"
-		self.__log(kargs)
+		self.__log(**kargs)
